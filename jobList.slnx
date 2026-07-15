@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="jobList.Api/jobList.Api.csproj" />
+  <Project Path="jobList.Application/jobList.Application.csproj" />
+  <Project Path="jobList.Domain/jobList.Domain.csproj" />
+  <Project Path="jobList.Infrastructure/jobList.Infrastructure.csproj" />
+  <Project Path="jobList.Persistence/jobList.Persistence.csproj" />
+</Solution>

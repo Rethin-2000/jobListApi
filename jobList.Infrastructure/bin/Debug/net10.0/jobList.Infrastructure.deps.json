@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "jobList.Infrastructure/1.0.0": {
+        "dependencies": {
+          "jobList.Application": "1.0.0",
+          "jobList.Domain": "1.0.0"
+        },
+        "runtime": {
+          "jobList.Infrastructure.dll": {}
+        }
+      },
+      "jobList.Application/1.0.0": {
+        "dependencies": {
+          "jobList.Domain": "1.0.0"
+        },
+        "runtime": {
+          "jobList.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "jobList.Domain/1.0.0": {
+        "runtime": {
+          "jobList.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "jobList.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "jobList.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "jobList.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

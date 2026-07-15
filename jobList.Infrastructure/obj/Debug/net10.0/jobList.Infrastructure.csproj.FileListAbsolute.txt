@@ -1,0 +1,17 @@
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\bin\Debug\net10.0\jobList.Infrastructure.deps.json
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\bin\Debug\net10.0\jobList.Infrastructure.dll
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\bin\Debug\net10.0\jobList.Infrastructure.pdb
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\bin\Debug\net10.0\jobList.Application.dll
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\bin\Debug\net10.0\jobList.Domain.dll
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\bin\Debug\net10.0\jobList.Domain.pdb
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\bin\Debug\net10.0\jobList.Application.pdb
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\obj\Debug\net10.0\jobList.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\obj\Debug\net10.0\jobList.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\obj\Debug\net10.0\jobList.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\obj\Debug\net10.0\jobList.Infrastructure.AssemblyInfo.cs
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\obj\Debug\net10.0\jobList.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\obj\Debug\net10.0\jobList..55D7BF02.Up2Date
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\obj\Debug\net10.0\jobList.Infrastructure.dll
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\obj\Debug\net10.0\refint\jobList.Infrastructure.dll
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\obj\Debug\net10.0\jobList.Infrastructure.pdb
+C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Infrastructure\obj\Debug\net10.0\ref\jobList.Infrastructure.dll
