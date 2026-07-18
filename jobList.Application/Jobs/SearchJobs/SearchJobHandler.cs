@@ -1,5 +1,6 @@
 using jobList.Application.Interfaces;
 using jobList.Domain.Entities;
+using jobList.Application.Jobs.DTOs;
 
 namespace jobList.Application.Jobs.SearchJobs;
 
@@ -12,13 +13,17 @@ public class SearchJobHandler
         _jobRepository = jobRepository;
     }
 
-    public async Task<List<Job>>Handle(SearchJobQuery query)
+    public async Task<List<JobDto>>Handle(SearchJobQuery query)
     {
-        if(string.IsNullOrWhiteSpace(query.Title))
-        {
-            return await _jobRepository.GetAllJobsAsync();
-        }
+        var jobs = await _jobRepository.SearchJobAsync(query);
 
-        return await _jobRepository.SearchJobAsync(query.Title);
+        return jobs.Select(x => new JobDto
+        {
+            Id = x.Id,
+            Title = x.Title,
+            Salary = x.Salary,
+            WorkingMode = x.WorkingMode,
+            CompanyName = ""
+        }).ToList();
     }
 }

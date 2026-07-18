@@ -1,4 +1,5 @@
 using jobList.Domain.Entities;
+using jobList.Application.Jobs.SearchJobs;
 
 namespace jobList.Application.Interfaces;
 
@@ -6,7 +7,7 @@ public interface IJobRepository
 {
     Task AddJobAsync(Job job);
 
-    Task<List<Job>> GetAllJobsAsync();
+    
 
     Task<Job?> GetJobByIdAsync(Guid id);
 
@@ -14,6 +15,6 @@ public interface IJobRepository
 
     Task DeleteJobAsync(Job job);
 
-    Task<List<Job>> SearchJobAsync(string Title);
+    Task<List<Job>> SearchJobAsync(SearchJobQuery query);
     
 }

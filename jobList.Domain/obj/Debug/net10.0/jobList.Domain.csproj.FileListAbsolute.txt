@@ -9,3 +9,15 @@ C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Domain\obj\Debug\net10.0\jobList
 C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Domain\obj\Debug\net10.0\refint\jobList.Domain.dll
 C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Domain\obj\Debug\net10.0\jobList.Domain.pdb
 C:\Users\rethi\OneDrive\Desktop\jobList\jobList.Domain\obj\Debug\net10.0\ref\jobList.Domain.dll
+C:\Users\rethi\Desktop\jobListApi\jobListApi\jobList.Domain\bin\Debug\net10.0\jobList.Domain.deps.json
+C:\Users\rethi\Desktop\jobListApi\jobListApi\jobList.Domain\bin\Debug\net10.0\jobList.Domain.dll
+C:\Users\rethi\Desktop\jobListApi\jobListApi\jobList.Domain\bin\Debug\net10.0\jobList.Domain.pdb
+C:\Users\rethi\Desktop\jobListApi\jobListApi\jobList.Domain\obj\Debug\net10.0\jobList.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rethi\Desktop\jobListApi\jobListApi\jobList.Domain\obj\Debug\net10.0\jobList.Domain.AssemblyInfoInputs.cache
+C:\Users\rethi\Desktop\jobListApi\jobListApi\jobList.Domain\obj\Debug\net10.0\jobList.Domain.AssemblyInfo.cs
+C:\Users\rethi\Desktop\jobListApi\jobListApi\jobList.Domain\obj\Debug\net10.0\jobList.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rethi\Desktop\jobListApi\jobListApi\jobList.Domain\obj\Debug\net10.0\jobList.Domain.sourcelink.json
+C:\Users\rethi\Desktop\jobListApi\jobListApi\jobList.Domain\obj\Debug\net10.0\jobList.Domain.dll
+C:\Users\rethi\Desktop\jobListApi\jobListApi\jobList.Domain\obj\Debug\net10.0\refint\jobList.Domain.dll
+C:\Users\rethi\Desktop\jobListApi\jobListApi\jobList.Domain\obj\Debug\net10.0\jobList.Domain.pdb
+C:\Users\rethi\Desktop\jobListApi\jobListApi\jobList.Domain\obj\Debug\net10.0\ref\jobList.Domain.dll

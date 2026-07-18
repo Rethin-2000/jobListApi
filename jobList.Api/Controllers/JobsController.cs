@@ -1,5 +1,4 @@
 using jobList.Application.Jobs.CreateJob;
-using jobList.Application.Jobs.GetAllJobs;
 using jobList.Application.Jobs.GetJobById;
 using jobList.Application.Jobs.DeleteJob;
 using jobList.Application.Jobs.UpdateJob;
@@ -14,16 +13,14 @@ namespace jobList.Api.Controllers;
 [Route("api/[controller]")]
 public class JobsController : ControllerBase
 {
-    private readonly CreateJobHandler _CreateJobhandler;
-    private readonly GetAllJobsHandler _getAllJobsHandler;
+    private readonly CreateJobHandler _createJobhandler;
     private readonly GetJobByIdHandler _getJobByIdHandler;
     private readonly DeleteJobHandler _deleteJobHandler;
     private readonly UpdateJobHandler _updateJobHandler;
     private readonly SearchJobHandler _searchJobHandler;
-    public JobsController(CreateJobHandler handler, GetAllJobsHandler getAllJobsHandler, GetJobByIdHandler getJobByIdHandler, DeleteJobHandler deleteJobHandler, UpdateJobHandler updateJobHandler, SearchJobHandler searchJobHandler)
+    public JobsController(CreateJobHandler handler,  GetJobByIdHandler getJobByIdHandler, DeleteJobHandler deleteJobHandler, UpdateJobHandler updateJobHandler, SearchJobHandler searchJobHandler)
     {
-        _CreateJobhandler = handler;
-        _getAllJobsHandler = getAllJobsHandler;
+        _createJobhandler = handler;
         _getJobByIdHandler = getJobByIdHandler;
         _deleteJobHandler = deleteJobHandler;
         _updateJobHandler = updateJobHandler;
@@ -33,27 +30,15 @@ public class JobsController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Create(CreateJobCommand command)
     {
-        await _CreateJobhandler.Handle(command);
+        await _createJobhandler.Handle(command);
         return Ok("Job created successfully");
     }
-
     [HttpGet]
-    public async Task<IActionResult> GetAll(string? title)
+    public async Task<IActionResult> GetAll([FromQuery] SearchJobQuery query)
     {
-        if (string.IsNullOrWhiteSpace(title))
-        {
-            var job = await _getAllJobsHandler.Handle(new GetAllJobsQuery());
+        var jobs = await _searchJobHandler.Handle(query);
 
-            return Ok(job);
-        }
-
-        var jobs = await _searchJobHandler.Handle(
-            new SearchJobQuery
-            {
-                Title = title
-            });
-
-            return Ok(jobs);
+        return Ok(jobs);
     }
 
     [HttpGet("{id}")]

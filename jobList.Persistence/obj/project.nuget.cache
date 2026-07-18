@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/A+zfu4HVAY=",
+  "dgSpecHash": "d1jAUkKMTQs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rethi\\OneDrive\\Desktop\\jobList\\jobList.Persistence\\jobList.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\rethi\\Desktop\\jobListApi\\jobListApi\\jobList.Persistence\\jobList.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rethi\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\rethi\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

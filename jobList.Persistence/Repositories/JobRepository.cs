@@ -1,6 +1,7 @@
 using jobList.Application.Interfaces;
 using jobList.Domain.Entities;
 using jobList.Persistence.Context;
+using jobList.Application.Jobs.SearchJobs;
 using Microsoft.EntityFrameworkCore;
 
 namespace jobList.Persistence.Repositories;
@@ -20,10 +21,7 @@ public class JobRepository : IJobRepository
         await _context.SaveChangesAsync();
     }
 
-    public async Task<List<Job>> GetAllJobsAsync()
-    {
-        return await _context.Jobs.ToListAsync();
-    }
+    
 
     public async Task<Job?> GetJobByIdAsync(Guid id)
     {
@@ -44,10 +42,14 @@ public class JobRepository : IJobRepository
         await _context.SaveChangesAsync();
     }
 
-    public async Task<List<Job>> SearchJobAsync(string title)
+    public async Task<List<Job>> SearchJobAsync(SearchJobQuery query)
     {
         return await _context.Jobs
-            .Where(x => x.Title.Contains(title))
+            .Where(x =>
+                string.IsNullOrWhiteSpace(query.Title) ||
+                x.Title.Contains(query.Title))
+            .Skip((query.Page - 1) * query.PageSize)
+            .Take(query.PageSize)
             .ToListAsync();
     }
 }

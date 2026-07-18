@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rethi\\OneDrive\\Desktop\\jobList\\jobList.Domain\\jobList.Domain.csproj": {}
+    "C:\\Users\\rethi\\Desktop\\jobListApi\\jobListApi\\jobList.Domain\\jobList.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rethi\\OneDrive\\Desktop\\jobList\\jobList.Domain\\jobList.Domain.csproj": {
+    "C:\\Users\\rethi\\Desktop\\jobListApi\\jobListApi\\jobList.Domain\\jobList.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rethi\\OneDrive\\Desktop\\jobList\\jobList.Domain\\jobList.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\rethi\\Desktop\\jobListApi\\jobListApi\\jobList.Domain\\jobList.Domain.csproj",
         "projectName": "jobList.Domain",
-        "projectPath": "C:\\Users\\rethi\\OneDrive\\Desktop\\jobList\\jobList.Domain\\jobList.Domain.csproj",
+        "projectPath": "C:\\Users\\rethi\\Desktop\\jobListApi\\jobListApi\\jobList.Domain\\jobList.Domain.csproj",
         "packagesPath": "C:\\Users\\rethi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rethi\\OneDrive\\Desktop\\jobList\\jobList.Domain\\obj\\",
+        "outputPath": "C:\\Users\\rethi\\Desktop\\jobListApi\\jobListApi\\jobList.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

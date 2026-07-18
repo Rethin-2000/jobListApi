@@ -3203,11 +3203,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rethi\\OneDrive\\Desktop\\jobList\\jobList.Api\\jobList.Api.csproj",
+      "projectUniqueName": "C:\\Users\\rethi\\Desktop\\jobListApi\\jobListApi\\jobList.Api\\jobList.Api.csproj",
       "projectName": "jobList.Api",
-      "projectPath": "C:\\Users\\rethi\\OneDrive\\Desktop\\jobList\\jobList.Api\\jobList.Api.csproj",
+      "projectPath": "C:\\Users\\rethi\\Desktop\\jobListApi\\jobListApi\\jobList.Api\\jobList.Api.csproj",
       "packagesPath": "C:\\Users\\rethi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rethi\\OneDrive\\Desktop\\jobList\\jobList.Api\\obj\\",
+      "outputPath": "C:\\Users\\rethi\\Desktop\\jobListApi\\jobListApi\\jobList.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3229,14 +3229,14 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\rethi\\OneDrive\\Desktop\\jobList\\jobList.Application\\jobList.Application.csproj": {
-              "projectPath": "C:\\Users\\rethi\\OneDrive\\Desktop\\jobList\\jobList.Application\\jobList.Application.csproj"
+            "C:\\Users\\rethi\\Desktop\\jobListApi\\jobListApi\\jobList.Application\\jobList.Application.csproj": {
+              "projectPath": "C:\\Users\\rethi\\Desktop\\jobListApi\\jobListApi\\jobList.Application\\jobList.Application.csproj"
             },
-            "C:\\Users\\rethi\\OneDrive\\Desktop\\jobList\\jobList.Infrastructure\\jobList.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\rethi\\OneDrive\\Desktop\\jobList\\jobList.Infrastructure\\jobList.Infrastructure.csproj"
+            "C:\\Users\\rethi\\Desktop\\jobListApi\\jobListApi\\jobList.Infrastructure\\jobList.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\rethi\\Desktop\\jobListApi\\jobListApi\\jobList.Infrastructure\\jobList.Infrastructure.csproj"
             },
-            "C:\\Users\\rethi\\OneDrive\\Desktop\\jobList\\jobList.Persistence\\jobList.Persistence.csproj": {
-              "projectPath": "C:\\Users\\rethi\\OneDrive\\Desktop\\jobList\\jobList.Persistence\\jobList.Persistence.csproj"
+            "C:\\Users\\rethi\\Desktop\\jobListApi\\jobListApi\\jobList.Persistence\\jobList.Persistence.csproj": {
+              "projectPath": "C:\\Users\\rethi\\Desktop\\jobListApi\\jobListApi\\jobList.Persistence\\jobList.Persistence.csproj"
             }
           }
         }
