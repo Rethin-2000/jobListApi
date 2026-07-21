@@ -44,11 +44,34 @@ public class JobRepository : IJobRepository
 
     public async Task<List<Job>> SearchJobAsync(SearchJobQuery query)
     {
-        return await _context.Jobs
-            .Where(x =>
-                string.IsNullOrWhiteSpace(query.Title) ||
-                x.Title.Contains(query.Title))
-            .Skip((query.Page - 1) * query.PageSize)
+       var jobs = _context.Jobs.AsQueryable();
+
+        if (!string.IsNullOrWhiteSpace(query.Title))
+        {
+           
+                jobs = jobs.Where(x => x.Title.Contains(query.Title));
+            
+        }
+
+        if (query.WorkingMode.HasValue)
+        {
+            jobs = jobs.Where(x => x.WorkingMode == query.WorkingMode.Value);
+        }
+
+        if(query.SortBy == "salary")
+        {
+            jobs = query.Descending
+                ? jobs.OrderByDescending(x => x.Salary)
+                : jobs.OrderBy(x => x.Salary);
+        }else if (query.SortBy == "title")
+        {
+            jobs = query.Descending
+                ? jobs.OrderByDescending(x => x.Title)
+                : jobs.OrderBy(x => x.Title);
+        }
+
+        return await jobs
+            .Skip((query.Page -1) * query.PageSize)
             .Take(query.PageSize)
             .ToListAsync();
     }
